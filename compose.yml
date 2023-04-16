@@ -22,3 +22,8 @@ volumes:
     name: dev-postgres-volume
     driver: local
 
+networks:
+  default:
+    name: develop-network
+    external: true
+
