@@ -1,7 +1,7 @@
 services:
 
   dev-postgres:
-    image: postgres:latest
+    image: postgres:14.10
     container_name: dev-postgres
     hostname: dev-postgres
     restart: always
